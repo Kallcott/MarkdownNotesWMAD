@@ -109,15 +109,16 @@ class _BulbAppState extends State<BulbApp> {
 #### Metadata
 SplashScreen
 	1. drop image in drawables folder
-	2. Goto: andoird/app/src/main/res/drawable --> launch_background.xml
-		- in item withing the layer-list tag
-		```
-		<item>
-		        <bitmap
-		            android:gravity="center"
-		            android:src="@drawable/piranesi_prisonniers" />
-		    </item>
-		```    
+2. Goto: andoird/app/src/main/res/drawable 
+	--> launch_background.xml
+	- in item withing the layer-list tag
+```
+<item>
+<bitmap
+	android:gravity="center"
+	android:src="@drawable/piranesi_prisonniers" /
+</item>
+```    
 App Label
 	1. Goto android/app/src/main --> AndroidManifest.xml
 	2. change manifest->application android:lable="myAppName"
