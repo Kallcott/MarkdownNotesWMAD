@@ -123,6 +123,9 @@ SplashScreen
 App Label
 	1. Goto android/app/src/main --> AndroidManifest.xml
 	2. change manifest->application android:lable="myAppName"
+	iOS
+	1. Goto: ios/runner/ -> info.plist
+	2. change dict/ -> CFBundleName -> \<string> bulb \</string>
 App Icon
 	1. Generate image with https://appicon.co/  This creates a bunch of mipmap folders
 	2. Replace mipmap folders in android/app/src/main/res
