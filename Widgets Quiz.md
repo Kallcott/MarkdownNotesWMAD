@@ -76,6 +76,7 @@ Invisible widgets: give structure without being displayed
 Conatiner is by default invisible, but with styling becomes visbible. 
 
 ## Notes from Demos
+```
 To create an app:
 - flutter create {folderName}  // Must be lowercase with underscores. 
 
@@ -88,7 +89,7 @@ Any asset is only availble in app after rebuild:
 - flutter pub get
 
 We declare variables and functions betwween Class and @overide Widget builder
-```
+
 class _BulbAppState extends State<BulbApp> {
   int bulbNum = 1;
 
@@ -104,7 +105,7 @@ class _BulbAppState extends State<BulbApp> {
 
   @override
   Widget build(BuildContext context)
-```
+
 
 #### Metadata
 SplashScreen
@@ -112,13 +113,13 @@ SplashScreen
 2. Goto: andoird/app/src/main/res/drawable 
 	--> launch_background.xml
 	- in item withing the layer-list tag
-```
+
 <item>
 <bitmap
 	android:gravity="center"
 	android:src="@drawable/piranesi_prisonniers" /
 </item>
-```    
+
 App Label
 	1. Goto android/app/src/main --> AndroidManifest.xml
 	2. change manifest->application android:lable="myAppName"
@@ -137,41 +138,41 @@ The benefit of using
 	- add images folder
 	- save myimage.jpeg to images folder
 	- add to pubspec
-```
+
 flutter:
   uses-material-design: true
   assets:
     - images/
-```
+
 - images/                            //will allow us to add an entire folder
 - images/myImage.jpeg    // will add the specific image
 
 ### Fonts
 1. a. Install package, inside project terminal type: 
-````
+
 flutter pub add google_fon
-````
+
 1. b.  Adding asset image to project
 	- add folder called fonts. 
 	- save myfont.ttf to the fonts folder
-```
+
 // after images
   fonts:
     - family: WaterBrush
       fonts:
         - asset: fonts/WaterBrush-Regular.ttf
-```
+
 2. a. asset -- text style
-```
+
 const Text(
   'Downloaded font family',
   style: TextStyle(
 	fontFamily: 'WaterBrush',
 	fontSize: 48,
   ),
-```
+
 2. b. package -- declare text style
-```
+
 Text('Light Bulb App',
 	style: GoogleFonts.nunito(
 	  fontWeight: FontWeight.w700,
