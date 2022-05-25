@@ -70,7 +70,7 @@ void main() {
 ```
 
 Notice how the argumenst below are wrapped in curly braces, these are named arguments
--  ***These are optional*** Beware, crashes could happen if an optional argument is left out. 
+-  ***These are optional*** Beware, crashes could happen if an optional argument is left out and code requires it to execute. 
 ```
 Person({String name, int age}){  
 	this.name = name;  
