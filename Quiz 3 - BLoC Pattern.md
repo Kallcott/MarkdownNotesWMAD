@@ -39,6 +39,7 @@ Example:
 - Inside of the Bloc is independent from the UI. 
 
 ![[Pasted image 20220530173224.png]]
+![Pasted image 20220530173224](https://user-images.githubusercontent.com/68761332/171057002-7bfdf843-32d1-42f7-8209-552d3699380f.png)
 
 
 ## References
