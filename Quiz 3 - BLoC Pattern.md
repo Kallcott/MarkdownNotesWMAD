@@ -18,9 +18,11 @@ Made of
 	- .stream property is the data-exit.
 - Syncs - like async requests and async reponsses //my own reminder
 
-StreamSubscription object: is listened to. -errors - dataflows out 
+StreamSubscription object: is listened to.                           
+- errors - dataflows out 
 - gets notified when an event related to the stream is triggered.
-DataTransformer object: -modify data - filter data
+DataTransformer object:                                              
+- modify data - filter data
 - transformes adta inside the stream
 
 ## About Blocs: Business Logic Components
