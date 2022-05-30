@@ -21,6 +21,7 @@ Made of
 StreamSubscription object: is listened to.                           
 - errors - dataflows out 
 - gets notified when an event related to the stream is triggered.
+
 DataTransformer object:                                              
 - modify data - filter data
 - transformes adta inside the stream
